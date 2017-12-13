@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/oradot"
+        android:title="@string/oradot"
+        android:icon="@mipmap/oradot" />
+    <item
+        android:id="@+id/bludot"
+        android:title="@string/bludot"
+        android:icon="@mipmap/bludot" />
+
+    <item
+        android:id="@+id/gredot"
+        android:title="@string/gredot"
+        android:icon="@mipmap/gredot" />
+
+    <item
+        android:id="@+id/rosdot"
+        android:title="@string/rosdot"
+        android:icon="@mipmap/rosdot" />
+
+</menu>

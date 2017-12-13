@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "594013803739",
+    "firebase_url": "https://mapsdemo-bb86c.firebaseio.com",
+    "project_id": "mapsdemo-bb86c",
+    "storage_bucket": "mapsdemo-bb86c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594013803739:android:a55905baaf029fe9",
+        "android_client_info": {
+          "package_name": "com.example.sleir.mapsdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594013803739-ubrj0o91fljedlcpqp8ecgaslpdvi95a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sleir.mapsdemo",
+            "certificate_hash": "3eada542e8cb90fc5a565d68b2c65311f088def5"
+          }
+        },
+        {
+          "client_id": "594013803739-d9f9fvvn62nt93aeri84dv31crhpp43c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4hVlRkLEbTJ73RL7oBaGu7XqOphvSk1E"
+        },
+        {
+          "current_key": "AIzaSyBKRRCXD6dRkTGM3BVCDN6kLon9QQN_ZY4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594013803739-d9f9fvvn62nt93aeri84dv31crhpp43c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594013803739:android:289300865ae0fad7",
+        "android_client_info": {
+          "package_name": "com.example.sleir.hispo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594013803739-0qlu0hfe6pmnvpg7uvjgs5nomn1a0hk5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sleir.hispo",
+            "certificate_hash": "3eada542e8cb90fc5a565d68b2c65311f088def5"
+          }
+        },
+        {
+          "client_id": "594013803739-d9f9fvvn62nt93aeri84dv31crhpp43c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4hVlRkLEbTJ73RL7oBaGu7XqOphvSk1E"
+        },
+        {
+          "current_key": "AIzaSyBKRRCXD6dRkTGM3BVCDN6kLon9QQN_ZY4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594013803739-d9f9fvvn62nt93aeri84dv31crhpp43c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

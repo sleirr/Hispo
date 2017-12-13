@@ -1,0 +1,64 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.1"
+    enforceUniquePackageName = false
+    compileOptions.encoding = "ISO-8859-1"
+    defaultConfig {
+        applicationId "com.example.sleir.hispo"
+        minSdkVersion 23
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+repositories {
+    jcenter()
+    maven {
+        url "https://maven.google.com"
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    //compile 'com.google.firebase:firebase-database:11.4.2'
+    // RecyclerView
+    // volley
+    // Glide
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.google.android.gms:play-services-maps:11.0.4'
+    compile 'com.android.support:appcompat-v7:26.+'
+    compile 'com.google.android.gms:play-services:11.0.4'
+    compile 'org.jetbrains:annotations-java5:15.0'
+    compile 'com.google.maps.android:android-maps-utils:0.4.+'
+    compile 'com.android.support:support-v4:26.+'
+    compile 'com.google.firebase:firebase-database:10.0.1'
+    compile 'com.android.support:recyclerview-v7:26.0.0-alpha1'
+    compile 'com.android.volley:volley:1.0.0'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:design:26.+'
+    compile 'com.davemorrissey.labs:subsampling-scale-image-view:3.1.3'
+    compile 'com.jakewharton:butterknife:6.1.0'
+    compile 'com.mafstech.libs:mafs-image-shape:1.0.4'
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:gridlayout-v7:25.3.1'
+    compile 'com.android.support:cardview-v7:25.3.1'
+}
+
+
+
+
+apply plugin: 'com.google.gms.google-services'

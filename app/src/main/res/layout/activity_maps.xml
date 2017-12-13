@@ -1,0 +1,111 @@
+<FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:design="http://schemas.android.com/apk/res-auto">
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sleir.hispo.MapsActivity" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/settings_button"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:onClick="verticalDropDownIconMenu"
+            android:src="@mipmap/settings_icon"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/vertical_dropdown_icon_menu_items"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/settings_button"
+            android:orientation="vertical"
+            android:padding="3dp"
+            android:background="#ff4c4c4c"
+            android:visibility="invisible">
+
+            <ImageButton
+                android:layout_width="46dp"
+                android:layout_height="match_parent"
+                android:onClick="menuSettingsClick"
+                android:paddingBottom="5dp"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:paddingTop="5dp"
+                android:layout_marginLeft="4dp"
+                android:src="@mipmap/menusettings" />
+
+            <ImageButton
+                android:layout_width="46dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:onClick="menuSearchClick"
+                android:paddingBottom="5dp"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:paddingTop="5dp"
+                android:layout_marginLeft="4dp"
+                android:src="@mipmap/menusearch" />
+
+            <ImageButton
+                android:layout_width="46dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:onClick="menuProfileClick"
+                android:paddingBottom="5dp"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:paddingTop="5dp"
+                android:layout_marginLeft="4dp"
+                android:src="@mipmap/menuprofile" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:layout_marginBottom="46dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/greybar"
+        android:visibility="invisible">
+        <LinearLayout
+            android:id="@+id/thumbnails"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingTop="2dp"/>
+    </HorizontalScrollView>
+
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        design:menu="@menu/bottom_nav_items"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@drawable/greybar"
+        android:layout_gravity="bottom" />
+
+
+
+</FrameLayout>

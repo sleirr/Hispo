@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "E:\\Hispo\\aRMarker\\build\\intermediates\\res\\merged\\debug\\layout\\demoselector.xml",
+        "source": "E:\\Hispo\\droidAR\\build\\intermediates\\bundles\\default\\res\\layout\\demoselector.xml"
+    },
+    {
+        "merged": "E:\\Hispo\\aRMarker\\build\\intermediates\\res\\merged\\debug\\layout\\errorreports.xml",
+        "source": "E:\\Hispo\\droidAR\\build\\intermediates\\bundles\\default\\res\\layout\\errorreports.xml"
+    },
+    {
+        "merged": "E:\\Hispo\\aRMarker\\build\\intermediates\\res\\merged\\debug\\layout\\calibration_dialog.xml",
+        "source": "E:\\Hispo\\aRMarker\\src\\main\\res\\layout\\calibration_dialog.xml"
+    },
+    {
+        "merged": "E:\\Hispo\\aRMarker\\build\\intermediates\\res\\merged\\debug\\layout\\defaultlayout.xml",
+        "source": "E:\\Hispo\\droidAR\\build\\intermediates\\bundles\\default\\res\\layout\\defaultlayout.xml"
+    },
+    {
+        "merged": "E:\\Hispo\\aRMarker\\build\\intermediates\\res\\merged\\debug\\layout\\action_wait_for_accuracy_view.xml",
+        "source": "E:\\Hispo\\droidAR\\build\\intermediates\\bundles\\default\\res\\layout\\action_wait_for_accuracy_view.xml"
+    },
+    {
+        "merged": "E:\\Hispo\\aRMarker\\build\\intermediates\\res\\merged\\debug\\layout\\basicdialog.xml",
+        "source": "E:\\Hispo\\droidAR\\build\\intermediates\\bundles\\default\\res\\layout\\basicdialog.xml"
+    },
+    {
+        "merged": "E:\\Hispo\\aRMarker\\build\\intermediates\\res\\merged\\debug\\layout\\defaultlistitemview.xml",
+        "source": "E:\\Hispo\\droidAR\\build\\intermediates\\bundles\\default\\res\\layout\\defaultlistitemview.xml"
+    },
+    {
+        "merged": "E:\\Hispo\\aRMarker\\build\\intermediates\\res\\merged\\debug\\layout\\calibration_file_dialog.xml",
+        "source": "E:\\Hispo\\aRMarker\\src\\main\\res\\layout\\calibration_file_dialog.xml"
+    },
+    {
+        "merged": "E:\\Hispo\\aRMarker\\build\\intermediates\\res\\merged\\debug\\layout\\main2.xml",
+        "source": "E:\\Hispo\\aRMarker\\src\\main\\res\\layout\\main2.xml"
+    },
+    {
+        "merged": "E:\\Hispo\\aRMarker\\build\\intermediates\\res\\merged\\debug\\layout\\calibration_edit_dialog.xml",
+        "source": "E:\\Hispo\\aRMarker\\src\\main\\res\\layout\\calibration_edit_dialog.xml"
+    },
+    {
+        "merged": "E:\\Hispo\\aRMarker\\build\\intermediates\\res\\merged\\debug\\layout\\test_layout.xml",
+        "source": "E:\\Hispo\\droidAR\\build\\intermediates\\bundles\\default\\res\\layout\\test_layout.xml"
+    },
+    {
+        "merged": "E:\\Hispo\\aRMarker\\build\\intermediates\\res\\merged\\debug\\layout\\infoscreen.xml",
+        "source": "E:\\Hispo\\droidAR\\build\\intermediates\\bundles\\default\\res\\layout\\infoscreen.xml"
+    }
+]
