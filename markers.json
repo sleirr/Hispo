@@ -1,0 +1,78 @@
+{
+  "Markers" : [ {
+    "icon" : "BitmapDescriptorFactory.fromResourceR.drawable.arrow",
+    "latitude" : "65.01738987897451",
+    "longitude" : "25.46807885169983",
+    "snippet" : "The Oulu castle began its life as a fortress which was built in 1590, even before Oulu was founded. In 1605, the fortress was cleared to make way for a proper castle to protect the just-founded Oulu on the continent opposite to the island. Even though the plan was to build a stone castle, it was mainly made out of wood due to the focus on the castle in Kajaani. \r\nThe castle flourished during the first decades of 17th century. Amount of servicemen varied between 50-100. During the rule of Gustav II Adolf and the Thirty Years’ War, northern territories were left aside, and the castle started to lose its importance. Russians burned the wood structures of the castle during the Great Northern War in 1715. Afterwards, the remaining spaces were used as storage. \r\nThe castle met its end in 31st of July 1793. Lightning ignited a fire, which blew up the black powder stored in chancellery building’s cellar, destroying the whole building. Oulu Sea School’s observation tower was built atop the chancellery building’s cellar to train location finding. After the school’s activities ceased, a café started its business in the tower. Oulu castle’s area is recognized as a relic protected by Finnish Antiquities Act.",
+    "title" : "Oulu Castle",
+    "type" : "building"
+  }, {
+    "icon" : "BitmapDescriptorFactory.fromResourceR.drawable.arrow",
+    "latitude" : "65.0133205058076",
+    "longitude" : "25.46482801437378",
+    "snippet" : "Toripolliisi is a bronze statue created by Kaarlo Mikkonen in 1987. It got its name from three market square policemen who upheld law and order in the square during 1934-1979. It was funded with civil fundraising starting from 1985. \r\nThe most known market square policeman is Jaakko Mikkola in 1910-1933. He was known to be gentle but firm, and has stayed in people’s minds not only because of his apt remarks, but also from his physique. It’s said that Mikkola was 165 cm tall and weighed 140 kg. Due to this, he is often thought to be model of the statue, but, in reality, the artist modeled it after his father-in-law. In addition, real Mikkola had a mustache, which is absent from the statue.",
+    "title" : "Toripolliisi",
+    "type" : "statue"
+  }, {
+    "icon" : "BitmapDescriptorFactory.fromResourceR.drawable.arrow",
+    "latitude" : "65.01725660000001",
+    "longitude" : "25.45814930000006",
+    "snippet" : "The oldest conserved wooden building in Oulu, nowadays nicknamed Matilan talo, or Matila’s house, was originally built during 1737-1739 as a customs house on the road leading to Liminka. In these customs houses, customs officers checked the merchandise and collected the payment according the bills of entry. Collection ended in 1808, after which the building was moved to the corner of Kirkkokatu and Nummikatu until 1983, when it was moved to Pikisaari. \r\nThe building survived the great fires of Oulu in 1822 and 1882. After the customs officer, both the building and plot were transferred to the ownership of artisans, as the Heinäpää was, at the time, inhabited by artisans and sailors.",
+    "title" : "Merimiehenkotimuseo",
+    "type" : "ruin"
+  }, {
+    "icon" : "BitmapDescriptorFactory.fromResourceR.drawable.arrow",
+    "latitude" : "65.012676",
+    "longitude" : "25.471471",
+    "snippet" : "Lorem  dolor sit amet, consectetur adipiscing elitSedvel magna tristique, tempus nulla at, vehicula nisi. Fusce ut magna vel est fringilla consectetur non quis mauris. Pellentesque in erat quis nulla semper eleifend ac ut turpis. Vivamus commodo laoreet justo eu condimentum.",
+    "title" : "KOP-talo",
+    "type" : "art"
+  }],
+	"Urls":[
+		{
+			"title" : "Oulu Castle",
+			"type" :"building",
+			"url" : "https://upload.wikimedia.org/wikipedia/commons/8/8d/Oulun_linna_t%C3%A4htitorni.jpg"
+		},
+		{
+			"title" : "Oulu Castle",
+			"type" :"building",
+			"url" : "https://upload.wikimedia.org/wikipedia/commons/1/18/Oulun_linna_2016.jpg"
+		},
+		{
+			"title" : "Oulu Castle",
+			"type" :"building",
+			"url" : "https://upload.wikimedia.org/wikipedia/commons/c/cb/Linnansaari_Oulu_20080402.JPG"
+		},
+		{
+			"title" : "Toripolliisi",
+			"type" :"statue",
+			"url" : "https://c1.staticflickr.com/5/4074/4774975594_90b10f4c14_b.jpg"
+		},
+		{
+			"title" : "Toripolliisi",
+			"type" :"statue",
+			"url" : "https://c2.staticflickr.com/4/3603/3527450631_53a18efc07_z.jpg?zz=1"
+		},
+		{
+			"title" : "Toripolliisi",
+			"type" :"statue",
+			"url" : "https://upload.wikimedia.org/wikipedia/fi/1/1b/Toripolliisi.jpg"
+		},
+		{
+			"title" : "Merimiehenkotimuseo",
+			"type" :"ruin",
+			"url" : "https://upload.wikimedia.org/wikipedia/commons/0/03/Merimiehenkotimuseo_Oulu_2016.jpg"
+		},
+		{
+			"title" : "Merimiehenkotimuseo",
+			"type" :"ruin",
+			"url" : "https://upload.wikimedia.org/wikipedia/commons/a/a8/Pikisaari_Merimiehenkotimuseo.jpg"
+		},
+		{
+			"title" : "Merimiehenkotimuseo",
+			"type" :"ruin",
+			"url" : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Pikisaarentie_6_Oulu_20080718.JPG/561px-Pikisaarentie_6_Oulu_20080718.JPG"
+		}
+	]
+}
